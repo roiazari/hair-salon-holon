@@ -18,17 +18,16 @@ export const metadata: Metadata = {
   openGraph: {
     title: content.sections.hero.title,
     description: content.sections.hero.subtitle,
-    url: 'https://hair-salon-holon.vercel.app/', // אל תשכח לשנות לדומיין האמיתי בעלייה לאוויר
+    url: 'https://hair-salon-holon.vercel.app/',
     siteName: content.owner.name,
     locale: 'he_IL',
     type: 'website',
-    // === כאן הוספנו את התמונה שתופיע בוואטסאפ/פייסבוק/לינקדאין ===
     images: [
       {
-        url: '/images/og-image.jpg', // הנתיב לתמונה שהוספת
+        url: 'https://hair-salon-holon.vercel.app/images/hero.webp',
         width: 1200,
         height: 630,
-        alt: 'ישראל ישראלי - מספרה בחולון', // טקסט חלופי
+        alt: 'ישראל ישראלי - מספרה בחולון',
       },
     ],
   },
