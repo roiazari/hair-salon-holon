@@ -24,9 +24,9 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: 'https://hair-salon-holon.vercel.app/images/hero.webp',
-        width: 1200,
-        height: 630,
+        url: 'https://hair-salon-holon.vercel.app/web-app-manifest-512x512.png',
+        width: 512,
+        height: 512,
         alt: 'ישראל ישראלי - מספרה בחולון',
       },
     ],
